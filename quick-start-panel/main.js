@@ -1,3 +1,5 @@
+const { selection } = require("scenegraph");
+
 function create() {
     const HTML =
         `<style>
@@ -54,7 +56,6 @@ function create() {
 }
 
 function show(event) {
-    const { selection } = require("scenegraph")
     event.node.appendChild(create());
     update();
 }
