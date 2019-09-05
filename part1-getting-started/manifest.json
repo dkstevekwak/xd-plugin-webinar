@@ -1,0 +1,16 @@
+{
+    "id": "ID_FROM_IO_CONSOLE",
+    "name": "banner plugin",
+    "host": {
+        "app": "XD",
+        "minVersion": "8.0"
+    },
+    "version": "0.0.1",
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Part1",
+            "commandId": "createCustomBanner"
+        }
+    ]
+}

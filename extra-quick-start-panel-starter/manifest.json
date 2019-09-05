@@ -1,0 +1,17 @@
+{
+    "name": "Example Plugin - starter",
+    "id": "YOUR_ID_HERE__+",
+    "version": "1.0.0",
+    "description": "Sample panel plugin code for Adobe XD",
+    "host": {
+        "app": "XD",
+        "minVersion": "19.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Panel example - starter",
+            "panelId": "enlargeRectangle"
+        }
+    ]
+}

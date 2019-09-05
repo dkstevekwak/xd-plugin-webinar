@@ -1,0 +1,52 @@
+{
+  "summary": "Brief summary, 3-30 characters",
+  "website": "https://mywebsite.com",
+  "keywords": [
+    "array",
+    "of",
+    "keywords",
+    "min 2 characters per keyword",
+    "max total length 100 characters"
+  ],
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "ja",
+    "ko",
+    "zh",
+    "es",
+    "pt"
+  ],
+  "author": "No more than 40 characters",
+  "description": "This describes the plugin. If included it must contain at least 3 characters and no more than 1000 characters.",
+  "helpUrl": "https://mywebsite.com/help",
+  "main": "main.js",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    }
+  ],
+  "version": "1.0.0",
+  "releaseNotes": "Release notes for the plugin version, at least 3 characters and no more than 1000 characters",
+  "name": "My Dropbox Plugin",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "id": "My-Dropbox-Plugin",
+  "uiEntryPoints": [
+    {
+      "label": "My Dropbox Plugin",
+      "type": "menu",
+      "commandId": "myPluginCommand"
+    }
+  ]
+}
