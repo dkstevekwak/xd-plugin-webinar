@@ -53,7 +53,7 @@ async function populateProfile() {
     }];
 
     selection.insertionParent.addChild(text);
-    text.moveInParentCoordinates(600, 600);
+    text.moveInParentCoordinates(100, 100);
 
     dialog.close();
 }
